@@ -32,6 +32,7 @@ class LongPressPreview extends StatefulWidget {
   /// Called on a normal (non-long) tap.
   final VoidCallback? onTap;
 
+  /// Creates a [LongPressPreview].
   const LongPressPreview({
     super.key,
     required this.child,

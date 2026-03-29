@@ -55,6 +55,7 @@ class LongPressLinkPreview extends StatefulWidget {
   /// Called on normal tap (not long press).
   final VoidCallback? onTap;
 
+  /// Creates a [LongPressLinkPreview].
   const LongPressLinkPreview({
     super.key,
     required this.url,

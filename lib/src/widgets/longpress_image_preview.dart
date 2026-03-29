@@ -34,6 +34,7 @@ class LongPressImagePreview extends StatelessWidget {
   /// Called on normal tap.
   final VoidCallback? onTap;
 
+  /// Creates a [LongPressImagePreview].
   const LongPressImagePreview({
     super.key,
     required this.imageProvider,
