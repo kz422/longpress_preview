@@ -74,21 +74,21 @@ class _WidgetTab extends StatelessWidget {
                 animation: PreviewAnimation.scaleFromChild,
                 actions: [
                   PreviewAction(
-                    label: '開く',
+                    label: 'Open',
                     icon: Icons.open_in_new,
                     onTap: () => ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text('Opened article $i')),
                     ),
                   ),
                   PreviewAction(
-                    label: 'コピー',
+                    label: 'Copy',
                     icon: Icons.copy,
                     onTap: () => ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text('Copied article $i')),
                     ),
                   ),
                   PreviewAction(
-                    label: '削除',
+                    label: 'Delete',
                     icon: Icons.delete_outline,
                     isDestructive: true,
                     onTap: () => ScaffoldMessenger.of(context).showSnackBar(

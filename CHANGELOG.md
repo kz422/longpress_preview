@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Update screenshot to show context menu actions in English.
+
 ## 0.1.1
 
 * Fix screenshot images not displaying on pub.dev (use absolute GitHub raw URLs).
