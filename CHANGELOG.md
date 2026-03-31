@@ -1,3 +1,9 @@
+## 0.1.4
+
+* Remove `cached_network_image` dependency to restore WASM compatibility and full platform support (Windows, Linux, Web).
+* Add missing dartdoc comments to constructors and `OgpData.description`.
+* Compress `on_image_widget.gif` screenshot to satisfy pub.dev 4 MB limit.
+
 ## 0.1.3
 
 * Fix `MissingPluginException` on Flutter Web when using `LongPressLinkPreview` — OGP images now use `Image.network` on web instead of `CachedNetworkImage`.
