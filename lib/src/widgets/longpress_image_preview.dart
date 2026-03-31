@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../models/preview_config.dart';
 import 'longpress_preview.dart';
@@ -59,10 +58,10 @@ class LongPressImagePreview extends StatelessWidget {
 
   Widget _buildImage() {
     if (imageProvider is NetworkImage) {
-      return CachedNetworkImage(
-        imageUrl: (imageProvider as NetworkImage).url,
+      return Image.network(
+        (imageProvider as NetworkImage).url,
         fit: BoxFit.contain,
-        errorWidget: (_, __, ___) => const Icon(Icons.broken_image_outlined),
+        errorBuilder: (_, __, ___) => const Icon(Icons.broken_image_outlined),
       );
     }
     return Image(image: imageProvider, fit: BoxFit.contain);
