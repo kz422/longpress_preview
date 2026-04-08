@@ -9,9 +9,9 @@ A Flutter package that shows a preview popup on long press, inspired by Safari's
 
 <table>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/without_context_menu.gif" width="220" /><br/><sub>Widget preview</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/with_context_menu.gif" width="220" /><br/><sub>Context menu actions</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/on_image_widget.gif" width="220" /><br/><sub>Zoomable image preview</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/preview_with_context_menu.gif" width="220" /><br/><sub>Widget preview + context menu</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/links_preview.gif" width="220" /><br/><sub>OGP link preview</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/kz422/flutter_longpress_preview/main/screenshots/images_preview.gif" width="220" /><br/><sub>Image preview</sub></td>
   </tr>
 </table>
 
@@ -36,11 +36,13 @@ A Flutter package that shows a preview popup on long press, inspired by Safari's
 
 ## Installation
 
+**[View on pub.dev →](https://pub.dev/packages/flutter_longpress_preview)**
+
 Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_longpress_preview: ^0.1.0
+  flutter_longpress_preview: ^latest_version
 ```
 
 Then run:

@@ -1,3 +1,10 @@
+## 0.1.8
+
+* Fix `LongPressImagePreview` using `BoxFit.cover` to eliminate black bars on non-square images.
+* Revamp example app: richer article feed, styled saved-links list, and photo gallery with location overlays.
+* Replace screenshots with new GIFs covering all three widget types.
+* Add pub.dev link to README.
+
 ## 0.1.7
 
 * Add `onPreviewTap` callback to `LongPressPreview` — called when the preview popup itself is tapped, enabling peek-and-pop style navigation.

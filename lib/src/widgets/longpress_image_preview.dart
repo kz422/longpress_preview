@@ -60,11 +60,18 @@ class LongPressImagePreview extends StatelessWidget {
     if (imageProvider is NetworkImage) {
       return Image.network(
         (imageProvider as NetworkImage).url,
-        fit: BoxFit.contain,
+        fit: BoxFit.cover,
+        width: double.infinity,
+        height: double.infinity,
         errorBuilder: (_, __, ___) => const Icon(Icons.broken_image_outlined),
       );
     }
-    return Image(image: imageProvider, fit: BoxFit.contain);
+    return Image(
+      image: imageProvider,
+      fit: BoxFit.cover,
+      width: double.infinity,
+      height: double.infinity,
+    );
   }
 
   @override
